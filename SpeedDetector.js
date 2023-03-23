@@ -1,3 +1,11 @@
+/* 
+    this code monitors speed of a user and adds one
+    point every time the speed increases by a multiple of 
+    five past the speed limit
+*/
+
+
+//prompt user for input
 const prompt = require("prompt-sync")({sigint:true});
 
 const speed = parseInt(prompt("Car Speed: "));

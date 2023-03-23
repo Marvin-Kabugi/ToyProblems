@@ -1,3 +1,8 @@
+/*
+    this code displays the grade of a student based on a user input
+*/
+
+// prompt user for input
 const prompt = require("prompt-sync")({sigint:true});
 
 let studentMarks = parseInt(prompt("Enter student marks: "));
